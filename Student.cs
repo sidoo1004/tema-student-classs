@@ -35,7 +35,7 @@ namespace tema_student_classs
             }
             set
             {
-                if (value >= 18 && value <= 99)
+                if (value >= min_Age && value <= max_Age)
                     age = value;
                 else Console.WriteLine("varsta nu e buna");
 
